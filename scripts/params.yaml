@@ -1,0 +1,6 @@
+--- 
+#   UArm parameters
+
+#   Serial port - must be changed for the specific device being used.
+uarmport: /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A600CRBO-if00-port0
+...

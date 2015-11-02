@@ -1,0 +1,5 @@
+<launch>
+   <rosparam command="load" file="$(find uarm_utils)/scripts/params.yaml" />
+   <node name="uarm_standard" pkg="uarm_utils" type="uarm_standard.py" required="true"/>
+   <node name="movetest1"     pkg="uarm_utils" type="movetest1.py" required="true"/>
+</launch>
